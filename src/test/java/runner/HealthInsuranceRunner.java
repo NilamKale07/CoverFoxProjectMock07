@@ -5,10 +5,8 @@ import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions
 (features = {
-		 "D:\\Nilam\\JavaPractice_Updated\\coverfox\\src\\test\\resources\\CoverfoxFeature\\CoverfoxHelthPlan.feature"
-		//"D:\\Nilam\\JavaPractice_Updated\\coverfox\\src\\test\\resources\\CoverfoxFeature\\MultipleScenario.feature"
-		//"D:\\Nilam\\JavaPractice_Updated\\coverfox\\src\\test\\resources\\CoverfoxFeature\\CoverfoxMultipleData.feature"
-		//"D:\\Nilam\\JavaPractice_Updated\\coverfox\\src\\test\\resources\\CoverfoxFeature\\GmailLoginDataTable.feature" 
+		 "D:\\CloneProjectByNilamSelenium\\CoverFoxProjectMock07\\src\\test\\resources\\CoverfoxFeature\\CoverfoxHelthPlan.feature"
+	
 		},
 
 		glue = { "stepDefinitions","hooks" }, 
