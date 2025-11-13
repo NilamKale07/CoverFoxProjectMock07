@@ -67,6 +67,7 @@ public class Utility {
 		FileInputStream myFile=new FileInputStream("D:\\clone_Nilam\\CoverFoxProjectMock07\\src\\main\\resources\\config\\config.properties");
 		properties.load(myFile);
 		String value=properties.getProperty(key);
+		System.out.println("Success");
 		System.out.println("Key value is: "+value);
 		return value;
 		
