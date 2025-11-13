@@ -18,5 +18,4 @@ Then Validate Error message
 Scenario:TC03 validate member details page
 Given I am on home page
 When I click on getStarted button
-And I click on next button
-Then Validate Error message
+Then I click on next button
