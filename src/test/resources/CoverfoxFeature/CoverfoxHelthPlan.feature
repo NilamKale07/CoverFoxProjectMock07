@@ -15,18 +15,15 @@ And I Provide age as "30" and click on next button
 And I provide pincode and click on continue button
 Then Validate Error message
 
-Scenario:TC03 validate member details page
+Scenario: TC03 validate member details page
 Given I am on home page
 When I click on getStarted button
 Then I click on next button
 
-Scenario:TC04 validate member details page
+Scenario: TC04 validate member details page
 Given I am on home page
 When I click on getStarted button
 Then I click on next button
 
-Scenario:TC05 validate member details page
-Given I am on home page
-When I click on getStarted button
-Then I click on next button
+
 
