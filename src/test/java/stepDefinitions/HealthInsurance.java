@@ -94,7 +94,7 @@ public class HealthInsurance {
         softAssert.assertEquals(actualErrormsgMobile,expectedErrormsgMobile,"Mobile no. error message is not matching");
         Reporter.log("Mobile no. error message is matching",true);
         softAssert.assertAll();
-        
+        Reporter.log("add 4th scenario");
 	
 		
 
