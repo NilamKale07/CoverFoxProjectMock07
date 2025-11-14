@@ -95,6 +95,8 @@ public class HealthInsurance {
         Reporter.log("Mobile no. error message is matching",true);
         softAssert.assertAll();
         Reporter.log("add 4th scenario");
+        Reporter.log("add 4th scenario1");
+        
 	
 		
 
