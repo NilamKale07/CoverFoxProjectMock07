@@ -19,3 +19,10 @@ Scenario:TC03 validate member details page
 Given I am on home page
 When I click on getStarted button
 Then I click on next button
+
+Scenario:TC04 validate member details page
+Given I am on home page
+When I click on getStarted button
+Then I click on next button
+
+
