@@ -5,8 +5,9 @@ import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions
 (features = {
-		"D:\\clone_Nilam\\CoverFoxProjectMock07\\src\\test\\resources\\CoverfoxFeature\\CoverfoxHelthPlan.feature"	 
-		},
+"D:\\clone_Nilam\\CoverFoxProjectMock07\\src\\test\\resources\\CoverfoxFeature\\CoverfoxHelthPlan.feature"	 
+
+},
 
 		glue = { "stepDefinitions","hooks" }, 
 		plugin = {"pretty","html:target/Cucumber-reports/reports.html"}, publish = true,
