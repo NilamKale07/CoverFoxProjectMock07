@@ -6,4 +6,7 @@ Feature: Study Data Table
       | userName | password | msg       |
       | test@123 | 12345    | welcome    |
       | ram@789  | 7896     | Thank you |
+       | ram@789  | 7896     | Thank you |
+        | ram@789  | 7896     | Thank you |
     Then I should navigate to inboxs
+    
